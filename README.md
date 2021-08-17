@@ -6,7 +6,7 @@ Developing a personalized Discord bot using `discord.js`.
 * [dotenv](https://www.npmjs.com/package/dotenv)
 
 ## Setup
-After cloning this repository, open [this](https://discord.com/developers/applications/) link and click on the **Bot** option in the sidemenu. Copy the token underneath the bot's username. Create a `config.env` file and paste the token. Your file should look like this.
+After cloning this repository, open [this](https://discord.com/developers/applications/) link and click on the **Bot** option in the sidemenu. Copy the token underneath the bot's username. Create a `client.env` file and paste the token. Your file should look like this.
 ```
 BOT_TOKEN=token-goes-here
 ``` 

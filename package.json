@@ -1,0 +1,31 @@
+{
+  "name": "asrava",
+  "version": "1.0.0",
+  "description": "Custom Discord bot for a few servers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxhit/asrava.git"
+  },
+  "keywords": [
+    "asrava",
+    "discord",
+    "bot"
+  ],
+  "author": "Mohit Dodhia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mxhit/asrava/issues"
+  },
+  "homepage": "https://github.com/mxhit/asrava#readme",
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
