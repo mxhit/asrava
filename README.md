@@ -1,27 +1,26 @@
 # Āśrava
 Developing a personalized Discord bot using `discord.js`.
 
+## Prerequisites
+* Latest [Node.js](https://nodejs.org/en/download/current/)
+
 ## Requirements
 * [discord.js](https://discord.js.org/)
 * [dotenv](https://www.npmjs.com/package/dotenv)
 
-## Setup
+## Setup ⚠
 After cloning this repository, open [this](https://discord.com/developers/applications/) link and click on the **Bot** option in the sidemenu. Copy the token underneath the bot's username. Create a `client.env` file and paste the token. Your file should look like this.
 ```
 BOT_TOKEN=token-goes-here
+GUILDID=serverid-goes-here
+CLIENTID=clientid-goes-here
 ``` 
 
-Create a `config.json` file with the following code. The value of `prefix` will act as the bot's trigger.
-```json
-{
-	"prefix": ">"
-}
-```
-
 ## Basic features
-- [x] Purge 		`purge`
-- [x] User avatar 	`pfp`
-- [x] Server info 	`server`
+- [ ] Purge 		`purge`
+- [ ] User avatar 	`pfp`
+- [x] Server info 	`server`🆕
+- [ ] User info		`user`
 
 ## Planned features
 - [ ] F1 statistics
@@ -30,3 +29,7 @@ Create a `config.json` file with the following code. The value of `prefix` will 
 - [ ] COVID-19 statistics for India
 - [ ] Podcasts
 - [ ] Random wallpaper from [Unsplash](https://unsplash.com/)
+
+###### Note
+* Slash commands may or may not be implemented for the features mentioned above.
+* Bot trigger can be changed in `config.json`
