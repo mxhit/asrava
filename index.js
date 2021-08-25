@@ -9,7 +9,7 @@ if (isConfigured.error) {
 }
 
 client.once('ready', () => {
-	console.log(`Developed by ${process.env.DEVELOPER}`);
+	console.log(`Hello there!`);
 });
 
 client.on('interactionCreate', async interaction => {
