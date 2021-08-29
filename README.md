@@ -31,5 +31,4 @@ CLIENTID=clientid-goes-here
 - [ ] Random wallpaper from [Unsplash](https://unsplash.com/)
 
 ###### Note
-* Slash commands may or may not be implemented for the features mentioned above.
-* Bot trigger can be changed in `config.json`
+Bot trigger can be changed in `config.json`
