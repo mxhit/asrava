@@ -1,5 +1,12 @@
 # Āśrava
-Developing a personalized Discord bot using `discord.js`.
+Developing a personalized Discord bot using **Discord.js**.
+
+<div align="center">
+  <br />
+  <p>
+    <a href="https://discord.js.org"><img src="https://discord.js.org/static/logo.svg" width="546" alt="discord.js" /></a>
+  </p>
+</div>
 
 ## Prerequisites
 * Latest [Node.js](https://nodejs.org/en/download/current/)
